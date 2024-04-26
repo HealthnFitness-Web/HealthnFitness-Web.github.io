@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(3, 3, 67, 0.7), rgba(0,0,50,0.7)), url(bgimage.jpg);
+    background-image: linear-gradient(rgb(3, 3, 67, 0.8), rgba(0,0,50,0.8)), url(bgimage.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
