@@ -5,17 +5,49 @@
 }
 body{
    /* background-image:url('risen-wang-20jX9b35r_M-unsplash.jpg') ;  */
-   font-family: roboto;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #16161606;
 }
 .title_bar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 180px 0px 180px 300px;
+    
+    color: azure;
+    background-image: linear-gradient(to right,rgba(3, 3, 3, 0.7), rgba(228, 228, 235, 0.7)), url(danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 30px;
+    
+    
+}
+.title_bar h2{
+    font-size: 50px;
+}
+
+.title_bar1{
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 50px;
     padding-left: 200px;
     color: azure;
-    background-color: rgba(0, 0, 0, 0.843);
+    background-color: black;
+}
+.title_bar2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 180px 0px 180px 300px;
     
-    
+    color: azure;
+    background-image: linear-gradient(to right,rgba(3, 3, 3, 0.7), rgba(228, 228, 235, 0.7)), url(workfinal.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 30px;
+}
+.title_bar2 h2{
+    font-size: 50px;
 }
 .row{
     
@@ -24,14 +56,14 @@ body{
     
 }
 h5{
-    color: rgb(121, 121, 121);
+    color: rgb(243, 200, 12);
 }
 
 .card{
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
     transition: transform(2s);
-    background-image: linear-gradient(to bottom,rgb(18, 14, 14) , rgb(203, 198, 198));
-    color: #fff;
+    /* background-image: linear-gradient(to bottom,rgb(18, 14, 14) , rgb(203, 198, 198)); */
+    color: #000000;
 }
 .card:hover{
     transform: scale(1.1);
@@ -82,7 +114,7 @@ a .card-text{
      font-size: x-large;
 }
 .down_info{
-    margin:50px 250px 200px 250px;
+    margin:50px 250px 50px 250px;
     justify-content: center;
 }
 .down_info p{
@@ -94,7 +126,7 @@ a .card-text{
     align-items: center;
     width:400px;
    
-    margin:100px 500px 100px 500px;
+    margin:50px 500px 50px 500px;
     box-shadow: 0 0 10px #fff200, 0 0 20px#fff200, 0 0 40px #fff200, 0 0 80px #fff200; /* Neon glow effect */
     animation: neonGlow 1.5s infinite alternate;
      
@@ -148,11 +180,11 @@ a .card-text{
 }
 .btn btn-dark{
     cursor: pointer;
-    background-color: yellow;
+   
     border-radius: 3px;
     vertical-align: middle;
     padding-top:100px;
-    color:red;
+    
 }
 a{
     text-decoration: none;
@@ -165,11 +197,11 @@ a{
 .exercise-descrip{
     padding-left: 280px;
     padding-right:280px;
-    line-height: 1.6;
+    line-height: 20px;
     font-size: 20px;
 }
 .vid{
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     padding-left:280px;
     
 }
@@ -186,6 +218,7 @@ a{
     padding:50px;
     
 }
+
 .how h4{
       margin-bottom: 10px;
 }
@@ -215,20 +248,29 @@ h4{
     padding:5px 5px 5px 10px;
     width:auto;
     border-radius: 10px;
+    transition: color(0.5s);
+}
+.how:hover h4{
+     color:#fff200;
+     
+}
+
+.adv:hover h4{
+    color:#fff200;
 }
 
 .progress-container {
     width: 400px;
-    background-color: #ddd;
+    background-color: #2a2929;
     border-radius: 8px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     margin-left:40px;
 }
 
 .progress-bar {
     width: 100%;
-    background-color: black;
+    background-color: rgb(243, 200, 12);
     height: 30px;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -241,5 +283,5 @@ h4{
     font-size: 15px;
     left:3px;
     
-    color: #fff;
+    color: #000000;
 }
