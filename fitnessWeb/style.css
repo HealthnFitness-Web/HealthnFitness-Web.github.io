@@ -3,13 +3,17 @@
     padding:auto;
     line-height: 1.6;
 }
+body{
+   /* background-image:url('risen-wang-20jX9b35r_M-unsplash.jpg') ;  */
+   font-family: roboto;
+}
 .title_bar{
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 50px;
     padding-left: 200px;
     color: azure;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.843);
     
     
 }
@@ -19,11 +23,15 @@
     margin-top:100px;
     
 }
-
+h5{
+    color: rgb(121, 121, 121);
+}
 
 .card{
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
-    transition: transform(1s);
+    transition: transform(2s);
+    background-image: linear-gradient(to bottom,rgb(18, 14, 14) , rgb(203, 198, 198));
+    color: #fff;
 }
 .card:hover{
     transform: scale(1.1);
@@ -74,10 +82,23 @@ a .card-text{
      font-size: x-large;
 }
 .down_info{
-    margin-left:200px;
-    margin-top: 200px;
+    margin:50px 250px 200px 250px;
+    justify-content: center;
 }
-
+.down_info p{
+    text-align: center;
+    font-size: 20px;
+}
+.centered{
+    justify-content: center;
+    align-items: center;
+    width:400px;
+   
+    margin:100px 500px 100px 500px;
+    box-shadow: 0 0 10px #fff200, 0 0 20px#fff200, 0 0 40px #fff200, 0 0 80px #fff200; /* Neon glow effect */
+    animation: neonGlow 1.5s infinite alternate;
+     
+}
 
 
 
@@ -144,7 +165,8 @@ a{
 .exercise-descrip{
     padding-left: 280px;
     padding-right:280px;
-    
+    line-height: 1.6;
+    font-size: 20px;
 }
 .vid{
     margin-bottom: 100px;
@@ -158,12 +180,17 @@ a{
 .what{
     padding:30px;
     font-size: large;
+    font-size: 20px;
 }
 .how{
-    padding:30px;
+    padding:50px;
+    
+}
+.how h4{
+      margin-bottom: 10px;
 }
 .how ul{
-    font-size: large;
+    font-size: 20px;;
 }
 .muscle{
     padding:30px;
@@ -174,14 +201,16 @@ a{
     padding-top: 30px;
     
 }
+
 .adv{
     padding:30px;
 }
 .adv ol{
-    font-size: large;
+    margin-top: 10px;
+    font-size: 20px;
 }
 h4{
-    background-color: black;
+    background-image:linear-gradient(to right,black,transparent);;
     color: #fff;
     padding:5px 5px 5px 10px;
     width:auto;
@@ -209,7 +238,7 @@ h4{
 
 .progress-value {
     position: absolute;
-    
+    font-size: 15px;
     left:3px;
     
     color: #fff;
