@@ -6,7 +6,8 @@
   opacity: 75%;
 }
 #dropdownMenuButton {
-  background-color:#FFC94A ; 
+  /* background-color:#FFC94A ;  */
+  background-color:#3181f1;
   margin-top:20px;
   margin-left:px;
  
@@ -21,11 +22,7 @@
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-}
+
 
 /* Style logo text */
 .logo .logo-text {
@@ -62,7 +59,8 @@
 }
 
 .home {
-  background-color: #FFC94A;
+  /* background-color: #FFC94A; */
+  background-color:#3181f1;
   text-decoration-color: rgb(255, 255, 255);
 }
 
@@ -89,7 +87,7 @@
   justify-content: center;
 }
 .btn-outline-warning{
-  background-color: #06f832;
+  background-color: #F57D1F;
 }
 
 /* Style carousel text */
@@ -312,7 +310,7 @@ width:400px;
 .healthy-life-text p {
   font-size: 19px;
   line-height: 2;
-  color: #231f1f; 
+  color: #000; 
 
 .healthy-life-text .btn {
   margin-top: 20px;
