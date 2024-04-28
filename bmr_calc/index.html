@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR Calculator >> health hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bmr-calculator">
+        <h1>BMR Calculator</h1>
+        <div class="controls">
+            <form>
+                <h2>Age</h2>
+                <input type="text" id="age">
+
+                <div class="gender">
+                    <h2>Gender</h2>
+                    <input type="radio" id="male" value="male" name="gender" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="height">
+                    <h2>Height</h2>
+                    <input type="text" , id="height">
+                    <div class="unit">cm</div>
+                </div>
+
+                <div class="weight">
+                    <h2>Weight</h2>
+                    <input type="text" id="weight">
+                    <div class="unit">kg</div>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="result">
+            <button class="calculate-btn">calculate</button>
+
+            <!-- in order to customize the result number, we kept it in a span -->
+            <div class="result-msg">
+                <span class="calories">1640</span>
+                Calories/day
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <p>
+        <h1>Basal Metabolic Rate (BMR)</h1>
+        <div>Basal Metabolic Rate (BMR) is the amount of energy (measured in calories) that the body requires to sustain
+            its most basic functions while at rest. These essential functions include breathing, circulation, cell
+            production, and maintenance of body temperature. BMR accounts for the largest portion of total daily energy
+            expenditure, representing the calories burned at rest, before factoring in physical activity or exercise.
+        </div>
+        <br>
+        <div>Factors such as age, gender, body composition, and hormonal balance influence an individual's BMR.</div>
+
+        <div>Understanding your BMR is crucial for tailoring nutrition and exercise plans to achieve fitness goals,
+            whether it's weight loss, maintenance, or muscle gain.
+
+
+            </p>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
