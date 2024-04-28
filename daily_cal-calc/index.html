@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caloric Needs Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Caloric Needs <br>Calculator</h1>
+        <form id="caloric-needs-form">
+            <div class="row"><div class="form-group">
+                
+                <input type="number" id="age" name="age" placeholder="Enter age...">
+            </div>
+            <div class="form-group">
+                <!-- <label for="height">Height (cm):</label> -->
+                <input type="number" id="height" name="height" placeholder="Enter height..">
+            </div>
+        </div>
+            <div class="row">
+                <div class="form-group">
+                    <!-- <label for="weight">Weight (kg):</label> -->
+                    <input type="number" id="weight" name="weight" placeholder="Enter weight...">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="gender">Gender:</label> -->
+                    <select id="gender" name="gender" required>
+                        <option value="gender">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="activity-level">Activity Level:</label>
+                <select id="activity-level" name="activity-level" required>
+                    <option value="sedentary">Sedentary (little or no exercise)</option>
+                    <option value="lightly-active">Lightly active (light exercise/sports 1-3 days/week)</option>
+                    <option value="moderately-active">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                    <option value="very-active">Very active (hard exercise/sports 6-7 days a week)</option>
+                    <option value="super-active">Super active (very hard exercise/sports, physical job, or training twice a day)</option>
+                </select>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <div class="container-1">
+        <h2>Understanding Caloric Needs</h2>
+        <div class="content">
+            <p>A calorie is a unit of energy that the body needs to move and maintain its temperature. The nutrients we take into our body turn into energy, but excess calories turn into fat molecules and cause the body to store fat.</p>
+            <p>The essential nutrients our body needs to produce energy are:</p>
+            <ul>
+                <li>Protein: 4 calories per gram</li>
+                <li>Carbohydrate: 4 calories per gram</li>
+                <li>Fat: 9 calories per gram</li>
+            </ul>
+            <p>1 kilogram of body weight is approximately equivalent to 7700 calories. This means:</p>
+            <ul>
+                <li>If you consume 7700 calories, you will gain 1 kilogram.</li>
+                <li>If you expend 7700 calories, you will lose 1 kilogram.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
