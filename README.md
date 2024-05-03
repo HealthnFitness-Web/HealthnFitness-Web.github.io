@@ -1,7 +1,7 @@
 
 # ✨Healthy hub fitness tracker ✨
  
-## A simple fitness tracker website containing blogs, workouts, FAQs, and calculators 
+##### A simple fitness tracker website containing blogs, workouts, FAQs, and calculators 
 
 ## Screenshots
 ***homepage***
