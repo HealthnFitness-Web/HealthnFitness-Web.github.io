@@ -4,18 +4,17 @@ body{
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     background-image: linear-gradient(rgb(3, 3, 67, 0.75), rgba(0,0,50,0.75)), url(bgimage_bmr.jpg);
     background-position: center;
     background-size: cover;
     position: relative;    
 }
 
+
 .bmr-calculator{
     /* margin-top: 20px; */
+    /* margin-left: 500px; */
     max-width: 400px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:8px 24px ;
@@ -119,6 +118,7 @@ body{
     color: white ;
     font-size: 20px;
     width: 60%;
+    /* margin-left: 300px; */
     /* margin-bottom: 20px; */
     padding: 20px;
 }
