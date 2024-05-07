@@ -116,7 +116,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    background-color: rgb(247, 242, 242);
     padding: 50px 60px 70px;
     text-align: center;
 
@@ -125,7 +125,7 @@
 .form-box h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: #3c00a0;
+    color: rgb(0,0,0);
     position: relative;
 }
 
@@ -134,7 +134,7 @@
     width: 30px;
     height: 3px;
     border-radius: 3px;
-    background: #3c00a0;
+    background: rgb(255, 145, 0);
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -170,7 +170,7 @@ form p{
 
 form p a{
     text-decoration: none;
-    color: #3c00a0;
+    color: rgb(255, 145, 0);
 }
 
 .btn-field{
@@ -181,7 +181,7 @@ form p a{
 
 .btn-field button{
     flex-basis: 48%;
-    background: #3c00a0;
+    background: rgb(255, 145, 0);
     color: #fff;
     height: 40px;
     border-radius: 20px;
