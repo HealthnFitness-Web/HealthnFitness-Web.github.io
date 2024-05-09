@@ -76,6 +76,7 @@ body{
   
   .btn-default {
     font-size: 16px;
+    justify-content: center;
   }
   
   .sign {
@@ -93,8 +94,9 @@ body{
     justify-content: space-around;
   }
   
-  .btn-default {
-    justify-content: center;
+  .btn-default a {
+    
+    text-decoration: none;
   }
   .btn-outline-warning{
     background-color: #F57D1F;

@@ -135,12 +135,12 @@ ul li {
     @media (min-width: 992px) {
     .navbar-nav {
     margin: 0 auto;
-    display: table;
+    display: flex;
     table-layout: fixed;
     }
     }
     .buttons {
-     display: flex; 
+    display: flex; 
     justify-content: center;
     list-style-type: none;
     padding: 20px;

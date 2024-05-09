@@ -245,6 +245,10 @@ body{
     .btn-default {
     justify-content: center;
     }
+    .btn-default a {
+        color: #ffffff;
+        text-decoration: none;
+      }
     .btn-outline-warning{
     background-color: #F57D1F;
     }
