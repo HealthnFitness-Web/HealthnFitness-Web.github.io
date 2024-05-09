@@ -20,6 +20,7 @@ body{
     background-color: var(--softColor);
 }
 
+
 .header {
     margin:3%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
@@ -230,6 +231,7 @@ body{
     }
     .btn-default {
     font-size: 16px;
+    
     }
     .sign {
     display: flex;
@@ -253,11 +255,10 @@ body{
       }
     .btn-outline-warning{
     background-color: #F57D1F;
+    
     }
-
-
-
-
+   
+    
 
     footer {
         background-color:black;
@@ -326,5 +327,5 @@ body{
 
     .sign button a{
         text-decoration: none;
-        color: black;
+        color: white;
     }
