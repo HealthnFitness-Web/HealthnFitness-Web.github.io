@@ -5,7 +5,7 @@ body{
     width: 100%;
     margin-top: 80px;
     
-    background-image: linear-gradient(rgb(3, 3, 67, 0.75), rgba(0,0,50,0.75)), url(bgimage_bmr.jpg);
+    background-image: linear-gradient(rgb(3, 3, 67, 0.75), rgba(0,0,50,0.75)), url(bgimage.jpg);
     background-position: center;
     background-size: cover;
     position: relative;    
@@ -17,8 +17,8 @@ body{
     justify-content: center;
 }
 .bmr-calculator{
-    /* margin-top: 20px; */
-    /* margin-left: 500px; */
+    margin-top: 20px; 
+    margin-left: 580px; 
     max-width: 400px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:8px 24px ;
@@ -28,6 +28,10 @@ body{
     
 }
 
+/* .bmr-calculator{
+    margin-left: 300px;
+    margin-bottom: 20px;
+} */
 .bmr-calculator,
 .bmr-calculator *{
     box-sizing: border-box;
@@ -121,9 +125,9 @@ body{
 .about{
     color: white ;
     font-size: 20px;
-    width: 60%;
-    /* margin-left: 300px; */
-    /* margin-bottom: 20px; */
+    width: 70%;
+    margin-left: 250px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 

@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calorie burned calci</title>
+  <title>Calorie burned calculator>>Healthy Habit</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <link rel="stylesheet" href="style.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 
@@ -30,14 +32,14 @@
         <div class="navbar-buttons">
           <ul class="nav navbar-nav">
             <li class="buttons">
-              <button type="button" class="btn btn-default active
-    home">Home</button>
-              <button type="button" class="btn btn-default
-    home">Workout</button>
-              <button type="button" class="btn btn-default
-    home">Blogs</button>
-              <button type="button" class="btn btn-default
-    home">FAQ's</button>
+              <button type="button" class="btn btn-default activehome">
+  <a href="/index.html">Home</a></button>
+              <button type="button" class="btn btn-defaulthome">
+  <a href="/fitnessWeb/workout.html">Workout</a></button>
+              <button type="button" class="btn btn-defaulthome">
+  <a href="/blogs_webdev/index.html">Blogs</a></button>
+              <button type="button" class="btn btn-defaulthome">
+    <a href="/Web Development Project/index.html">FAQ's</a></button>
             </li>
             <li class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -46,22 +48,22 @@
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">Body Mass
+                <li><a class="dropdown-item" href="/BMI-Calc/index.html">Body Mass
                     Index</a></li>
-                <li><a class="dropdown-item" href="#">Calories
+                <li><a class="dropdown-item" href="/calorie_burned_calculator/index.html">Calories
                     Burnt</a></li>
-                <li><a class="dropdown-item" href="#">Daily Calorie
+                <li><a class="dropdown-item" href="/daily_cal-calc/index.html">Daily Calorie
                     Calculator</a></li>
-                <li><a class="dropdown-item" href="#">Basal Metabolic
+                <li><a class="dropdown-item" href="/bmr_calc/index.html">Basal Metabolic
                     Rate</a></li>
               </ul>
             </li>
           </ul>
           <div class="sign">
-            <button type="button" class="btn btn-outline-warning"><span class="glyphicon glyphicon-user"></span> Sign
-              Up</button>
+            <button type="button" class="btn btn-outline-warning"><span class="glyphicon glyphicon-user"></span>
+              <a href="/register_page/index.html">Register</a></button>
             <button type="button" class="btn btn-outline-warning"><span class="glyphicon glyphicon-log-in"></span>
-              Login</button>
+             <a href="/signin_page/index.html">Login</a></button>
           </div>
         </div>
       </div>
@@ -70,9 +72,9 @@
 
 
 
-  <div class="container">
+  <div class="my_container">
     <h1>Calories Burned <br>Calculator</h1>
-    <div class="form-container">
+    <div class="form_my_container">
       <label for="gender">Gender:</label>
       <select id="gender">
         <option value="male">Male</option>
