@@ -9,7 +9,7 @@ body {
     position: relative;
 }
   
-  .container {
+  .my_container {
     max-width: 500px;
     margin: 100px auto;
     padding: 20px;
@@ -24,7 +24,7 @@ body {
     color: #333;
   }
   
-  .form-container {
+  .form_my_container {
     margin-bottom: 20px;
    
   }
@@ -53,7 +53,7 @@ body {
     font-size: 16px;
   }
   
-  button {
+  .my_container button {
     width: 100%;
     margin-top: 10px;
     padding: 12px;
