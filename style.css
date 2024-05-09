@@ -57,6 +57,10 @@
 .navbar-buttons .btn {
   margin: 0;
 }
+.buttons a{
+  text-decoration: none;
+  color: black;
+}
 
 .home {
   /* background-color: #FFC94A; */
@@ -77,6 +81,10 @@
   align-items: flex-start;
 }
 
+.sign button a{
+  text-decoration: none;
+  color: black;
+}
 #myNavbar {
   display: flex;
   flex-direction: row;
