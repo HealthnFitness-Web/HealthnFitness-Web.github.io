@@ -70,6 +70,7 @@
 
 .btn-default {
   font-size: 16px;
+  justify-content: center;
 }
 
 .sign {
@@ -91,8 +92,13 @@
   justify-content: space-around;
 }
 
-.btn-default {
-  justify-content: center;
+
+.btn-default a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn-default dropdown-toggle a{
+   color: #ffffff;
 }
 .btn-outline-warning{
   background-color: #F57D1F;
@@ -160,7 +166,7 @@
   transition:.5s;
 }
  .container h1{
-  margin:
+  
   font-size:40px;
 }
 .container p{
