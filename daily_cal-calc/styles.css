@@ -112,6 +112,14 @@ ul li {
     margin-top:20px;
     margin-left:px;
     }
+    .buttons button a{
+        text-decoration: none;
+        color:black;
+    }
+    .sign button a{
+        text-decoration: none;
+        color:white;;
+    }
     /* Set width to 100% and center carousel images */
     .carousel-inner img {
     width: 100%;
