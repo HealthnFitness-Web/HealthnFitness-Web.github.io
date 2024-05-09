@@ -10,7 +10,7 @@ body {
 
 .my_container {
     max-width: 450px;
-    margin: 100px auto;
+    margin: 200px auto;
     padding: 20px;
     border-radius: 8px;
     background-color: rgb(247, 242, 242);
@@ -186,6 +186,7 @@ ul li {
         padding: 20px;
         text-align: center;
         opacity:75%;
+        margin-top: 150px;
     }
     
     .footer-content {
