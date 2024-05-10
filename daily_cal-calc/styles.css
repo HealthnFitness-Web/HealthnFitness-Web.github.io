@@ -10,7 +10,7 @@ body {
 
 .my_container {
     max-width: 450px;
-    margin: 100px auto;
+    margin: 200px auto;
     padding: 20px;
     border-radius: 8px;
     background-color: rgb(247, 242, 242);
@@ -112,6 +112,14 @@ ul li {
     margin-top:20px;
     margin-left:px;
     }
+    .buttons button a{
+        text-decoration: none;
+        color:black;
+    }
+    .sign button a{
+        text-decoration: none;
+        color:white;;
+    }
     /* Set width to 100% and center carousel images */
     .carousel-inner img {
     width: 100%;
@@ -186,6 +194,7 @@ ul li {
         padding: 20px;
         text-align: center;
         opacity:75%;
+        margin-top: 150px;
     }
     
     .footer-content {

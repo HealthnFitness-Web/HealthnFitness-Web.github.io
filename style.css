@@ -57,9 +57,8 @@
 .navbar-buttons .btn {
   margin: 0;
 }
-.buttons a{
-  text-decoration: none;
-  color: black;
+.sign button a{
+  color:white;
 }
 
 .home {
@@ -84,17 +83,19 @@
 
 .sign button a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 #myNavbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+.dropdown button{
+  color:black;
+}
 
 .btn-default a {
-  color: #ffffff;
+  color: black;
   text-decoration: none;
 }
 .btn-default dropdown-toggle a{
