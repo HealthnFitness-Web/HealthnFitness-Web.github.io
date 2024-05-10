@@ -7,7 +7,7 @@
 }
 #dropdownMenuButton {
   /* background-color:#FFC94A ;  */
-  background-color:#3181f1;
+  background-color:black;
   margin-top:20px;
   margin-left:px;
  
@@ -78,6 +78,9 @@
   align-items: flex-start;
 }
 
+.dropdown button{
+  color:white;
+}
 
 #myNavbar {
   display: flex;
@@ -101,6 +104,13 @@
 }
 .btn-outline-warning{
   background-color: #F57D1F;
+}
+.buttons button{
+  background-color: black;
+
+}
+.buttons button a{
+  color:white;
 }
 /* header end */
   

@@ -7,10 +7,14 @@
 }
 #dropdownMenuButton {
   /* background-color:#FFC94A ;  */
-  background-color:#3181f1;
+  background-color:black;
   margin-top:20px;
   margin-left:px;
  
+}
+
+.dropdown button a{
+  color:white;
 }
 
 
@@ -103,6 +107,13 @@
 }
 .btn-outline-warning{
   background-color: #F57D1F;
+}
+.buttons button{
+  background-color: black;
+
+}
+.buttons button a{
+  color:white;
 }
 
 /* Style carousel text */

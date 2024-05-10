@@ -13,11 +13,15 @@
   }
   #dropdownMenuButton {
     /* background-color:#FFC94A ;  */
-    background-color:#3181f1;
+    background-color:black;
     margin-top:20px;
     margin-left:px;
    
   }
+  
+.dropdown button{
+  color:white;
+}
   
   
   /* Set width to 100% and center carousel images */
@@ -98,6 +102,13 @@
   }
   .btn-outline-warning{
     background-color: #F57D1F;
+  }
+  .buttons button{
+    background-color: black;
+  
+  }
+  .buttons button a{
+    color:white;
   }
 
 
