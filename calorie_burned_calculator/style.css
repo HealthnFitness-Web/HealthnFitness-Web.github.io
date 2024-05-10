@@ -132,7 +132,7 @@ body {
     }
     #dropdownMenuButton {
     /* background-color:#FFC94A ; */
-    background-color:#3181f1;
+    background-color:black;
     margin-top:20px;
     margin-left:px;
     }
@@ -183,8 +183,14 @@ body {
     }
     .home {
     /* background-color: #FFC94A; */
-    background-color:#3181f1;
+    background-color:black;
     text-decoration-color: rgb(255, 255, 255);
+    }
+    .buttons button a{
+      color:white;
+    }
+    .dropdown button{
+      color:white;
     }
     .btn-default {
     font-size: 16px;
