@@ -11,7 +11,7 @@ body {
   
   .my_container {
     max-width: 500px;
-    margin: 100px auto;
+    margin: 200px auto;
     padding: 20px;
     border-radius: 8px;
     background-color: rgb(247, 242, 242);;
@@ -120,6 +120,11 @@ body {
   }
 
 
+
+
+
+
+  
   .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -127,14 +132,10 @@ body {
     }
     #dropdownMenuButton {
     /* background-color:#FFC94A ; */
-    background-color:black;
+    background-color:#3181f1;
     margin-top:20px;
     margin-left:px;
     }
-    
-.dropdown button{
-  color:white;
-}
     .buttons button a{
       text-decoration: none;
       color:black
@@ -207,13 +208,6 @@ body {
     .btn-outline-warning{
     background-color: #F57D1F;
     }
-    .buttons button{
-      background-color: black;
-    
-    }
-    .buttons button a{
-      color:white;
-    }
 
 
 
@@ -224,6 +218,7 @@ body {
         padding: 20px;
         text-align: center;
         opacity:75%;
+        margin-top: 150px;
     }
     
     .footer-content {
