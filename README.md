@@ -1,9 +1,12 @@
 
-# ✨Healthy hub fitness tracker ✨
- 
-#### A simple fitness tracker website containing blogs, workouts, FAQs, and calculators 
+# ✨<u>Healthy hub fitness tracker</u> ✨
+ -----
 
-## Screenshots
+#### A simple fitness tracker website containing blogs, workouts, FAQs, and calculators
+
+#### <u>link to the website: </u>[click here](https://healthnfitness-web.github.io/)
+ 
+## <u>Screenshots</u>
 ***homepage***
 ![homepage](/website_screenshots/homepage.png)
 
@@ -27,7 +30,7 @@
 ![bmr_calculator](/website_screenshots/bmr_calc.png)
 
 
-## contributors : 
+## <u>contributors</u> : 
 
 - [@sneha31415](https://www.github.com/sneha31415)
 - [@swallaB](https://www.github.com/swallaB)

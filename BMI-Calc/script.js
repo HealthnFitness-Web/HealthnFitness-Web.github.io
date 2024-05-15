@@ -10,7 +10,7 @@ function Calc(){
     let BMI = Math.floor(weight/cm_Sqr*10000);
 
     // Give a Condition to Check Body Health..
-    if(Height.length == " " && weight.length == " "){
+    if(Height.length == "" || weight.length == ""){
         alert("Enter your Details in the input box")
     }
     else{

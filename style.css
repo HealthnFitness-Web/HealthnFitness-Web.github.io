@@ -10,10 +10,10 @@
   background-color:black;
   margin-top:20px;
   margin-left:px;
- 
+ color: #ffffff;
 }
 
-.dropdown button a{
+.dropdown button{
   color:white;
 }
 
