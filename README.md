@@ -40,3 +40,4 @@
 
 
 Feature branch: added enhancement description 
+Release v1.0: final checks 
